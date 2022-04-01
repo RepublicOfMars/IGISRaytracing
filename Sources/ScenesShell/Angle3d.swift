@@ -1,0 +1,3 @@
+class Angle3d {
+
+}
