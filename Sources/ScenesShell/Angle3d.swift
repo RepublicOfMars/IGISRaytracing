@@ -1,10 +1,3 @@
-func absVal(_ n:Double) -> Double {
-    if n < 0 {
-        return -n
-    }
-    return n
-}
-
 class Angle3d {
     var angleHorizontal : Double
     var angleVertical : Double
