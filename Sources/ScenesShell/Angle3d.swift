@@ -1,5 +1,14 @@
+import Foundation
+
+func sind(_ degrees:Double) -> Double {
+    return sin(degrees * (Double.pi / 180))
+}
+func cosd(_ degrees:Double) -> Double {
+    return cos(degrees * (Double.pi / 180))
+}
+
 class Angle3d {
-    var angleHorizontal : Double
+    var angleHorizontal : Double // 0 degrees is positive on the z axis
     var angleVertical : Double
 
     init(h:Double, v:Double) {
