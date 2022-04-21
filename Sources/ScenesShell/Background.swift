@@ -30,7 +30,6 @@ class Background : RenderableEntity {
     var y = 0
 
     init() {
-        let ray = Ray3d(origin:Point3d(x:0, y:0, z:0), angle:Angle3d(h:45, v:0))
         // Using a meaningful name can be helpful for debugging
         super.init(name:"Background")
     }
